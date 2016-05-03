@@ -1,0 +1,35 @@
+I am quite impressed with the way this is going 
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Yes i thought that was very usefull. FC needs to be in capitals and i had to move both js files to the doenloads page
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Obviously it would be easy to see what you have done recently and any changes made. If you did something and then totally changed it and then changed your mind, it would be nice to go back to that specific bit and return to it. it would also save a lot of space and time trying to remember how far back you went.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    On the plus side you get to choose so you can do it as often as you want also you can do it more logically, like doing it after writing or fixing a spercific chunk of text. You should also always adds coments so you know what you did and changed each time. On the down side you have to remember to commit regually.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    saving muliple files is obvioulsly more usful in web developement because your always going to be working across multiple files like html and css, if you change one youe going to end up changing the other. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    You use the git log command to get a full history of all of your save points, commits and you use the git diff command to see all that was added and deleted between two commits. You can also add git config --global color.ui auto so that the deletes are highlighted in red and additions are highlighted in green.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Obviously it does improve my confidence in trying new things within the program because if it fails you can always just fall back to an older version. Also if you want to try adding something good and its quite big but on the way if you make small changes that you like, you can save them so even if the big project fails you still have created something that is good.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I will probably use it mainly for web developement. I have been trying to design a website for the communist museum in hungry for a while. I am in many ways just happy to be learning and expanding my knowledge.
+    
