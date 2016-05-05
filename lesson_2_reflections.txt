@@ -1,4 +1,4 @@
-		What happens when you initialize a repository? Why do you need to do it?
+﻿		What happens when you initialize a repository? Why do you need to do it?
 
 Initializing a repository is basically what creates it. If you don't do it it wont be in the git directory so you wont be able to commit any files. It also creates a .gitfile inside your folder. This is basically what controls and monitors what you are doing with the repository.
 
@@ -9,14 +9,21 @@ The working directory might not have been saved yet it is basically open and it 
 		How can you use the staging area to make sure you have one commit per logical
 		change?
 
+you can check that by typing in git diff --staged to see the difference between that and the previously saved file version.				
+
 		What are some situations when branches would be helpful in keeping your history
 		organized? How would branches help?
 
+having numerous working branches will help if you want to create a website and want to experiment with different fonts and colors and headers. Using branches will be very helpfull for experimentation.
+
 		What are some situations when branches would be helpful in keeping your history
 		How do the diagrams help you visualize the branch structure?
+
+Diagrams help you visualise how many different branches you have created and how they are related to each other. It can help show if you have too many branches, it will also show he parentage of all the branches.
 
 		What is the result of merging two branches together? Why do we represent it in
 		the diagram the way we do?
 
 		What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 		manually?
+
