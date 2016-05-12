@@ -24,6 +24,8 @@ Diagrams help you visualise how many different branches you have created and how
 		What is the result of merging two branches together? Why do we represent it in
 		the diagram the way we do?
 
+The result is that the files are merged into one new one (this is usually the new master file) This is done because you might have wanted to experiment with one thing and not know if it would work decide that you liked it and wanted to incorporate the changes. Also if more than one person was working on a file you might want to combine your work together.
+
 		What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 		manually?
-
+There is always going to be a danger of conflicts when automatically merging whereas as manually merging is time consuming. The fact that git does have the ability to spot and highlight potential merge conflicts is however very useful.
